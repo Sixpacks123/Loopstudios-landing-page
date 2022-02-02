@@ -1,9 +1,10 @@
 <template>
-  <div class="page-container">
-    <div class="background">
-        <img src="./assets/img/desktop/image-hero.jpg" alt="background" />
-    </div>
+  <div class="hero-image">
+    <div class="page-container">
     <Header/>
+    </div>
+</div>
+  <div class="page-container">
   </div>
 </template>
 <script>
@@ -27,36 +28,40 @@ html, body{
     height: auto;
   }
 
- .background {
-    height: 35vw;
-    width: 100vw;
-    top: 0;
+.hero-image {
+  background-image: url("./assets/img/desktop/image-hero.jpg");
+  height: 70%;
+  width: 100%;
+  top: 0;
     left: 0;
-    position: absolute;
-    background-color: black;
-    z-index: -2;
-    
-  }
-  img {
-    height: 35vw;
-      width: 100%;
-      object-fit: cover;
-      object-position: 50% 0;
-    }
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
 .page-container { /** class for the same margin for all page */
-    width: 70%;
-    height: auto;
+   padding-top: 2em;
+    max-width: 1600px;
     margin: 0 auto;
     
   }
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+  @media all and (max-width: 1200px){
+    .page-container{
+      padding-top: 5em;
+      max-width: 1200px;
+      margin: 0 1.5em;
+    }
+  }
+
+  @media all and (max-width: 900px){
+    .page-container {
+      padding: 1.5em 5px calc(70px + 1.5em) 5px;
+    }
+    .hero-image {
+  background-image: url("./assets/img/mobile/image-hero.jpg");
+  height: 100vh;
 }
+  }
 
 </style>
