@@ -48,7 +48,6 @@ html, body{
 
   @media all and (max-width: 1200px){
     .page-container{
-      padding-top: 5em;
       max-width: 1200px;
       margin: 0 1.5em;
     }

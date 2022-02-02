@@ -63,6 +63,7 @@ div#logo {
   color: #fefefe;
   font-weight: 800;
   font-size: 2rem;
+  z-index: 5;
 }
 ul.nav-links {
   display: flex;
