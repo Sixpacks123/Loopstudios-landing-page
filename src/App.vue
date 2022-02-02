@@ -1,19 +1,28 @@
 <template>
+<<<<<<< HEAD
   <div class="hero-image">
     <div class="page-container">
     <Header/>
     </div>
 </div>
   <div class="page-container">
+=======
+  <div class="page-container">
+    <div class="background">
+      <img src="./assets/img/desktop/image-hero.jpg" alt="background" />
+    </div>
+    <MiddelContent/>
+>>>>>>> 07cc61d (first commit')
   </div>
 </template>
 <script>
 import Header from './components/Header.vue'
-
+import MiddelContent from './components/MiddelContent.vue'
 export default {
   name: 'App',
   components:{
-    Header
+    Header,
+    MiddelContent
   }
 
 }
