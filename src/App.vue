@@ -1,9 +1,9 @@
 <template>
   <div class="page-container">
-      <Header/>
     <div class="background">
         <img src="./assets/img/desktop/image-hero.jpg" alt="background" />
     </div>
+    <Header/>
   </div>
 </template>
 <script>
@@ -32,7 +32,7 @@ html, body{
     width: 100vw;
     top: 0;
     left: 0;
-    position: fixed;
+    position: absolute;
     background-color: black;
     z-index: -2;
     
