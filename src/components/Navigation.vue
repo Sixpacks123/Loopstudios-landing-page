@@ -1,9 +1,10 @@
 <template>
 <nav>
-    <a href="#">About</a>
-    <a href="#">Careers</a>
-    <a href="#">Events</a>
-    <a href="#">Products</a>
+    <a class="font" href="#">About</a>
+    <a class="font" href="#">Careers</a>
+    <a class="font" href="#">Events</a>
+    <a class="font" href="#">Products</a>
+    <a class="font" href="#">Supports</a>
 </nav>
 </template>
 <script>
@@ -13,7 +14,6 @@ export default {
 </script>
 <style scoped>
 nav{
-    margin: 0 auto;
     position: relative;
     z-index: 2;
     pointer-events: none;
@@ -26,6 +26,7 @@ a {
     padding: 10px 20px;
     text-decoration: none;
     color: white;
+    font-size: 15px;
 }
 
 </style>

@@ -28,7 +28,7 @@ html, body{
   }
 
  .background {
-    height: 30vw;
+    height: 35vw;
     width: 100vw;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ html, body{
     
   }
   img {
-    height: 30vw;
+    height: 35vw;
       width: 100%;
       object-fit: cover;
       object-position: 50% 0;
@@ -47,7 +47,7 @@ html, body{
     width: 70%;
     height: auto;
     margin: 0 auto;
-    background-color: red;
+    
   }
 
 #app {
