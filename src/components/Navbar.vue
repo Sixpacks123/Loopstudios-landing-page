@@ -9,7 +9,7 @@
 
     <ul class="nav-links">
       <li v-for="list in navLinks" :key="list.key">
-        <a class="font" :href="list.link">{{ list.name }}</a>
+        <a class="font-text" :href="list.link">{{ list.name }}</a>
       </li>
     </ul>
 
@@ -109,7 +109,7 @@ ul.nav-links a {
     height: 100vh;
     top:0;
     right: 0;
-    padding: 100px;
+    padding:100px;
     align-items: center;
     justify-content: flex-start;
     background-color: black;

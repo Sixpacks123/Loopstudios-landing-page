@@ -18,7 +18,7 @@ export default {
     max-width: 700px;
     padding: 30px;
     align-items: flex-start;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 span{
     color: white;
@@ -33,6 +33,7 @@ span{
   }
   .card{
       padding: 20px 5px;
+      margin-top: 150px;
   }
 }
 

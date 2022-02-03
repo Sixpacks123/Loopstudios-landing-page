@@ -40,7 +40,7 @@ html, body{
 }
 .page-container { /** class for the same margin for all page */
    padding-top: 2em;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
     
   }
