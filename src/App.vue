@@ -1,19 +1,11 @@
 <template>
-<<<<<<< HEAD
   <div class="hero-image">
     <div class="page-container">
     <Header/>
     </div>
 </div>
   <div class="page-container">
-=======
-  <div class="page-container">
-    <div class="background">
-      <img src="./assets/img/desktop/image-hero.jpg" alt="background" />
-    </div>
-    <Header/>
     <MiddelContent/>
->>>>>>> 07cc61d (first commit')
   </div>
 </template>
 <script>
