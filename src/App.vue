@@ -30,7 +30,7 @@ html, body{
 
 .hero-image {
   background-image: url("./assets/img/desktop/image-hero.jpg");
-  height: 70%;
+  height: 70vh;
   width: 100%;
   top: 0;
     left: 0;
